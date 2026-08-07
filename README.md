@@ -121,6 +121,7 @@ VS Code Version: 1.132.0
 4. **Wait for the installation to complete** and allow Composer to download and configure all the required Laravel files and dependencies.
 5. **Check the project directory** and confirm that the `hello-laravel` folder has been successfully created.
 
+![alt text](<Screenshots/Create Laravel Project Part 1.png>)
 
 
 ### Step 8: Running the Laravel Application
