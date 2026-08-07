@@ -211,3 +211,5 @@ Git. *Git documentation*. https://git-scm.com/doc
 Laravel. *Laravel documentation*. https://laravel.com/docs
 
 PHP Documentation Group. *PHP manual*. PHP.net. https://www.php.net/docs.php
+
+Visual Studio Code. *Visual Studio Code documentation.* Microsoft. https://code.visualstudio.com/docs
