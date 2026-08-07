@@ -160,27 +160,27 @@ Step 9:
 <h1>Project Structure</h1>
 app/
 
-The `app/` folder contains the core application code, including controllers, models, and other classes that handle the application's business logic.
+app/ – Contains the core logic of the application, including classes and components responsible for handling data, requests, business rules, and major system functions.
 
 routes/
 
-The `routes/` folder stores all route definitions. These routes determine how the application responds to incoming HTTP requests and direct users to the appropriate controllers or views.
+routes/ – Defines the URLs and paths that users can access and determines how the application responds to different requests.
 
 resources/
 
-The `resources/` folder contains the application's views, language files, and frontend assets. The `views` subfolder holds Blade templates used to build the user interface.
+resources/ – Contains the files used to build the user interface, such as Blade templates, CSS, JavaScript, and other frontend resources.
 
 public/
 
-The `public/` folder is the web server's document root. It contains the `index.php` file, which serves as the application's entry point, along with publicly accessible files such as images, CSS, JavaScript, and other assets.
+public/ – Contains files that can be directly accessed by the browser, including the main index.php entry point, images, stylesheets, and JavaScript files.
 
 config/
 
-The `config/` folder stores configuration files for the Laravel application, including settings for the database, mail services, caching, sessions, and other system components.
+config/ – Stores important application settings and configurations for features such as databases, authentication, caching, and other Laravel services.
 
 database/
 
-The `database/` folder contains files related to database management, including migrations, seeders, and factories. These files are used to create, modify, and populate the application's database.
+database/ – Contains files used for managing database-related operations, including migrations, seeders, and factories for creating and organizing data.
 
 <h1>Problems Encountered</h1>
 
@@ -198,10 +198,21 @@ While creating the Laravel project, the installation failed because the required
 
 <h1>Reflection</h1>
 
-Completing this laboratory activity gave me a better understanding of how a Laravel development environment is set up and how client-server technologies work together in web development. Before this activity, I was only familiar with the basic concepts of PHP and web development. By installing PHP, Composer, Laravel, Git, MySQL, and Visual Studio Code, I learned the purpose of each tool and how they work together to create and manage Laravel applications.
+## Reflection
 
-During the installation process, I encountered several challenges, including the Laravel Installer command not being recognized, the missing PHP Zip extension, and a firewall issue that prevented access to the local development server. Although these problems were frustrating at first, troubleshooting them helped me improve my problem-solving skills. I learned the importance of reading error messages carefully, checking system configurations, and following the official documentation when resolving technical issues.
+### What Did You Learn?
 
-Laravel is important in client-server development because it provides a structured framework for building secure, organized, and maintainable web applications. Its built-in features, such as routing, Blade templating, and Artisan commands, make the development process faster and more efficient. I also gained a better understanding of how a client sends requests to the server and how Laravel processes those requests before returning the appropriate response.
+Through this activity, I learned how to properly set up a development environment for Laravel and how the different software tools work together. I learned that PHP is required to run Laravel, while Composer is used to install and manage Laravel and its dependencies. I also learned how Visual Studio Code can be used to create and edit project files, MySQL can manage the application's data, and Git can be used to track changes and manage different versions of a project. Setting up Laravel also helped me understand the importance of configuring each tool correctly before beginning the actual development process. I gained a better understanding of how a Laravel project is created, launched, and tested on a local server.
 
-Overall, this activity strengthened my confidence in setting up a professional development environment and using Git for version control. The knowledge and skills I gained will serve as a strong foundation for future Laravel projects and more advanced client-server applications throughout the semester.
+### What Challenges Did You Encounter?
+
+One of the main challenges I encountered was configuring the required software and making sure that each program was recognized correctly by the system. Some commands did not work immediately, which required me to check the installation paths and configurations. I also encountered difficulties when dealing with errors that I did not understand at first. Instead of simply reinstalling everything, I learned to read the error messages, search for possible causes, and follow troubleshooting steps. This experience showed me that patience and careful problem-solving are important skills when working with development tools.
+
+### Why Is Laravel Important in Client-Server Development?
+
+Laravel is important in client-server development because it provides a structured way to build applications where the client communicates with the server to request and process information. It includes features such as routing, database connectivity, authentication, middleware, and request handling, which make the development process more organized and efficient. Laravel's MVC architecture also separates the application's logic, data, and user interface, making the system easier to develop, maintain, and improve.
+
+### How Will This Knowledge Help You in Future Software Development Projects?
+
+The knowledge I gained from this activity will help me in future software development projects because I now have experience setting up and configuring the tools required for web development. I can apply what I learned when creating Laravel applications, connecting systems to databases, managing project versions with Git, and troubleshooting technical problems. This experience also improved my confidence in working with development environments and command-line tools. As I work on more complex projects, these skills will help me understand the development process more effectively and prepare me for working on real-world software applications.
+
