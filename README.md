@@ -201,3 +201,13 @@ One of the challenges I encountered during the activity was installing and confi
 Laravel is important in client-server development because it provides developers with an organized framework for creating web applications that communicate between clients and servers. It includes useful features such as routing, database integration, authentication, middleware, and request handling, which reduce the amount of work required to build an application from the ground up. Its MVC architecture also helps separate the application's data, logic, and user interface, making the project easier to understand, maintain, and expand. Because of these features, Laravel allows developers to create web applications in a more structured and efficient way.
 
 The knowledge I gained from this activity will be useful in future software development projects because I now have a better understanding of how to prepare and manage a development environment. I can apply what I learned when creating web applications, working with databases, using Git for version control, and troubleshooting technical issues. This experience also made me more comfortable with using command-line tools and understanding how different technologies work together. Overall, the activity provided me with practical experience that can serve as a foundation for developing more advanced applications and improving my skills as a future software developer.
+
+<h1>References</h1>
+
+Composer. *Composer documentation*. https://getcomposer.org/doc/
+
+Git. *Git documentation*. https://git-scm.com/doc
+
+Laravel. *Laravel documentation*. https://laravel.com/docs
+
+PHP Documentation Group. *PHP manual*. PHP.net. https://www.php.net/docs.php
