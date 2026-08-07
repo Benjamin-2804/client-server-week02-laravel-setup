@@ -160,6 +160,7 @@ VS Code Version: 1.132.0
 ![alt text](<Screenshots/Student HomePage.png>)
 
 <h1>6. Project Structure</h1>
+
 <b>app/</b>
 
 app/ – Contains the core logic of the application, including classes and components responsible for handling data, requests, business rules, and major system functions.
