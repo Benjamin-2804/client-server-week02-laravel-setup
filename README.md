@@ -213,3 +213,6 @@ Laravel. *Laravel documentation*. https://laravel.com/docs
 PHP Documentation Group. *PHP manual*. PHP.net. https://www.php.net/docs.php
 
 Visual Studio Code. *Visual Studio Code documentation.* Microsoft. https://code.visualstudio.com/docs
+
+<h1> LinkedIn Portfolio Activity </h1>
+https://www.linkedin.com/posts/benjamin-abadier-109732427_week-2-client-server-technologies-laravel-share-7491381995885785088-fqJd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGwkBRkBnLHBdlMvgtaqjLFPO5dX9XM9sMU
