@@ -1,15 +1,15 @@
 # Project Title:
 client-server-week02-laravel-setup
 
-<h1>Brief Overview of Laravel</h1>
+<h1>2. Brief Overview of Laravel</h1>
 
 Laravel is a free and open-source PHP web framework that uses the MVC architecture to simplify the development of modern, secure, scalable, and maintainable web applications through features such as routing, database management, authentication, Blade templates, and the Artisan command-line tool.
 
-<h1>Importance of Client-Server Technologies</h1>
+<h1>2.1 Importance of Client-Server Technologies</h1>
 
 Client-server technologies are essential in modern information systems because they facilitate efficient communication and data exchange between client devices and centralized servers, enabling the secure storage, processing, retrieval, and management of information while supporting multiple users, enhancing system performance and reliability, simplifying maintenance and updates, strengthening data security, and providing a scalable infrastructure capable of adapting to the growing technological and organizational demands of businesses and institutions.
 
-<h1>Purpose of the Project</h1>
+<h1>2.2 Purpose of the Project</h1>
 
 The main purpose of this project is to set up a Laravel development environment and gain a better understanding of how client-server architecture works in web development. Through this activity, students will learn how to install Laravel, run a local development server, explore the different folders and files in a Laravel project, and create a simple homepage. This project also helps students become familiar with the basic features and workflow of Laravel, which will serve as a starting point for developing more advanced web applications in the future.
 
@@ -38,7 +38,7 @@ MySQL Version: 8.0.43
 VS Code Version: 1.132.0
 ```
 
-<h1>Installation Steps</h1>
+<h1>5. Installation Steps</h1>
 
 ### Step 1: PHP Installation
 
@@ -159,44 +159,38 @@ VS Code Version: 1.132.0
 
 ![alt text](<Screenshots/Student HomePage.png>)
 
-<h1>Project Structure</h1>
-app/
+<h1>6. Project Structure</h1>
+<b>app/</b>
 
 app/ – Contains the core logic of the application, including classes and components responsible for handling data, requests, business rules, and major system functions.
 
-routes/
+<b>routes/</b>
 
 routes/ – Defines the URLs and paths that users can access and determines how the application responds to different requests.
 
-resources/
+<b>resources/</b>
 
 resources/ – Contains the files used to build the user interface, such as Blade templates, CSS, JavaScript, and other frontend resources.
 
-public/
+<b>public/</b>
 
 public/ – Contains files that can be directly accessed by the browser, including the main index.php entry point, images, stylesheets, and JavaScript files.
 
-config/
+<b>config/</b>
 
 config/ – Stores important application settings and configurations for features such as databases, authentication, caching, and other Laravel services.
 
-database/
+<b>database/</b>
 
 database/ – Contains files used for managing database-related operations, including migrations, seeders, and factories for creating and organizing data.
 
-<h1>Problems Encountered</h1>
+<h1>7. Problems Encountered</h1>
 
-1. Laravel Installer Command Not Found
+1. Missing PHP Zip Extension
+While installing Laravel, I encountered an error indicating that the PHP Zip extension was missing or disabled in XAMPP.
 
-After installing Laravel, the `laravel` command was not recognized in the Command Prompt. This made it impossible to create a new Laravel project using the Laravel Installer until the installation was properly configured.
-
-
-
-The issue was resolved by ensuring that the Laravel Installer was installed correctly through Composer and that Composer's global vendor/bin directory was added to the system's PATH environment variable. After restarting the Command Prompt, the laravel -V command successfully displayed the installed Laravel version.
-
-2. Missing PHP Zip Extension
-
-While creating the Laravel project, the installation failed because the required PHP Zip extension was not enabled. As a result, Composer could not extract the downloaded packages until the extension was activated.
+<h1>8. Solutions
+To resolve the issue, I opened the php.ini configuration file located inside the XAMPP installation directory and searched for the Zip extension. I then enabled the extension by removing the semicolon (;) before the appropriate extension=zip line.
 
 <h1>Reflection</h1>
 
