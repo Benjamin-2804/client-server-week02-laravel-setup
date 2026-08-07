@@ -1,58 +1,28 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 1. Project Title:
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# client-server-week02-laravel-setup
 
-## About Laravel
+# 2. Introduction
+<h1>Brief Overview of Laravel</h1>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Laravel is a free, open-source PHP web application framework designed to simplify web development. It follows the Model-View-Controller (MVC) architecture, which organizes application logic, user interfaces, and data management into separate components. Laravel provides built-in features such as routing, authentication, database migration, and templating, allowing developers to create secure, scalable, and maintainable web applications efficiently.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h1>Importance of Client-Server Technologies</h1>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Client-server technology is the foundation of modern web applications. In this architecture, the client (such as a web browser) sends requests to the server, and the server processes those requests before returning the appropriate response. This approach enables centralized data management, improved security, easier maintenance, and efficient communication between users and web applications. Understanding client-server technologies is essential for developing dynamic and interactive websites.
 
-## Learning Laravel
+<h1>Purpose of the Project</h1>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The purpose of this project is to set up and configure a Laravel development environment while gaining practical experience with the client-server architecture. Through this project, students will learn how to install Laravel, run a local development server, understand the project's folder structure, and create a basic homepage. The project serves as a foundation for developing more advanced web applications using the Laravel framework.
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h1>Objectives</h1>
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+1. To install and configure the required software for Laravel development, including PHP, Composer, Laravel, Git, MySQL, and Visual Studio Code.
 
-## Agentic Development
+2. To create and successfully run a Laravel application on a local development server using the `php artisan serve` command.
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+3. To customize the Laravel homepage by displaying the student's name, student number, course, section, subject, and the current date.
 
-```bash
-composer require laravel/boost --dev
+4. To apply Git version control by creating a local repository and publishing the Laravel project to a public GitHub repository.
 
-php artisan boost:install
-```
-
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+5. To develop professional technical documentation by preparing a comprehensive README file with installation steps, project structure, screenshots, challenges encountered, and solutions.
