@@ -157,3 +157,51 @@ Step 9:
 
 ![alt text](<Screenshots/Student HomePage.png>)
 
+<h1>Project Structure</h1>
+app/
+
+The `app/` folder contains the core application code, including controllers, models, and other classes that handle the application's business logic.
+
+routes/
+
+The `routes/` folder stores all route definitions. These routes determine how the application responds to incoming HTTP requests and direct users to the appropriate controllers or views.
+
+resources/
+
+The `resources/` folder contains the application's views, language files, and frontend assets. The `views` subfolder holds Blade templates used to build the user interface.
+
+public/
+
+The `public/` folder is the web server's document root. It contains the `index.php` file, which serves as the application's entry point, along with publicly accessible files such as images, CSS, JavaScript, and other assets.
+
+config/
+
+The `config/` folder stores configuration files for the Laravel application, including settings for the database, mail services, caching, sessions, and other system components.
+
+database/
+
+The `database/` folder contains files related to database management, including migrations, seeders, and factories. These files are used to create, modify, and populate the application's database.
+
+<h1>Problems Encountered</h1>
+
+1. Laravel Installer Command Not Found
+
+After installing Laravel, the `laravel` command was not recognized in the Command Prompt. This made it impossible to create a new Laravel project using the Laravel Installer until the installation was properly configured.
+
+
+
+The issue was resolved by ensuring that the Laravel Installer was installed correctly through Composer and that Composer's global vendor/bin directory was added to the system's PATH environment variable. After restarting the Command Prompt, the laravel -V command successfully displayed the installed Laravel version.
+
+2. Missing PHP Zip Extension
+
+While creating the Laravel project, the installation failed because the required PHP Zip extension was not enabled. As a result, Composer could not extract the downloaded packages until the extension was activated.
+
+<h1>Reflection</h1>
+
+Completing this laboratory activity gave me a better understanding of how a Laravel development environment is set up and how client-server technologies work together in web development. Before this activity, I was only familiar with the basic concepts of PHP and web development. By installing PHP, Composer, Laravel, Git, MySQL, and Visual Studio Code, I learned the purpose of each tool and how they work together to create and manage Laravel applications.
+
+During the installation process, I encountered several challenges, including the Laravel Installer command not being recognized, the missing PHP Zip extension, and a firewall issue that prevented access to the local development server. Although these problems were frustrating at first, troubleshooting them helped me improve my problem-solving skills. I learned the importance of reading error messages carefully, checking system configurations, and following the official documentation when resolving technical issues.
+
+Laravel is important in client-server development because it provides a structured framework for building secure, organized, and maintainable web applications. Its built-in features, such as routing, Blade templating, and Artisan commands, make the development process faster and more efficient. I also gained a better understanding of how a client sends requests to the server and how Laravel processes those requests before returning the appropriate response.
+
+Overall, this activity strengthened my confidence in setting up a professional development environment and using Git for version control. The knowledge and skills I gained will serve as a strong foundation for future Laravel projects and more advanced client-server applications throughout the semester.
