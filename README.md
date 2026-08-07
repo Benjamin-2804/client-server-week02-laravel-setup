@@ -47,7 +47,7 @@ VS Code Version: 1.132.0
 3. **Verify the PHP installation** by entering the following command in the terminal:
    `php -v`
 4. **Check the displayed information** and confirm that the installed PHP version appears correctly, indicating that PHP has been successfully installed and recognized by the system.
-5. **Capture a screenshot** of the terminal showing the PHP version as evidence that the installation and verification process was completed successfully.
+5. **Capture a screenshot** of the terminal showing the PHP version.
 
 
 ![alt text](<Screenshots/PHP Verify.png>)
@@ -60,7 +60,7 @@ VS Code Version: 1.132.0
 3. **Verify the Composer installation** by entering the following command:
    `composer -V`
 4. **Check the command output** and confirm that the installed Composer version is displayed, indicating that the installation was completed successfully.
-5. **Capture a screenshot** of the Command Prompt showing the Composer version as proof that Composer was successfully installed and verified.
+5. **Capture a screenshot** of the Command Prompt showing the Composer version.
 
 
 ![alt text](<Screenshots/Composer Verify.png>)
@@ -73,7 +73,7 @@ VS Code Version: 1.132.0
 3. **Verify the Laravel installation** by entering the following command:
    `laravel -V`
 4. **Check the displayed output** and confirm that the Laravel version appears correctly, indicating that the Laravel Installer has been successfully installed and recognized by the system.
-5. **Capture a screenshot** of the terminal showing the Laravel version as evidence of the successful installation and verification.
+5. **Capture a screenshot** of the terminal showing the Laravel version.
 
 ![alt text](<Screenshots/Laravel Verify.png>)
 
@@ -86,7 +86,7 @@ VS Code Version: 1.132.0
 4. **Verify the Git installation** by entering the following command:
    `git --version`
 5. **Check the command output** and confirm that the installed Git version is displayed, indicating that Git has been successfully installed and recognized by the system.
-6. **Capture a screenshot** of the Command Prompt showing the Git version as proof that the installation and verification were completed successfully.
+6. **Capture a screenshot** of the Command Prompt showing the Git version.
 
 ![alt text](<Screenshots/Git Verify.png>)
 
@@ -98,7 +98,7 @@ VS Code Version: 1.132.0
 4. **Verify the MySQL installation** by entering the following command:
    `mysql --version`
 5. **Review the command output** and confirm that the installed MySQL version is displayed, indicating that MySQL has been successfully installed and recognized by the system.
-6. **Capture a screenshot** of the Command Prompt showing the MySQL version as evidence that the installation and verification process was completed successfully.
+6. **Capture a screenshot** of the Command Prompt showing the MySQL version.
 
 ![alt text](<Screenshots/MySQL Verify.png>)
 
@@ -108,7 +108,7 @@ VS Code Version: 1.132.0
 2. **Follow the installation instructions** and allow Visual Studio Code to be properly installed on the computer.
 3. **Launch Visual Studio Code** after the installation has been completed.
 4. **Open the Laravel project folder** in Visual Studio Code to access and manage the project's files and directories.
-5. **Capture a screenshot** showing the Laravel project successfully opened in Visual Studio Code as proof that the development environment has been set up.
+5. **Capture a screenshot** showing the Laravel project successfully opened in Visual Studio Code.
 
 ![alt text](<Screenshots/Visual Code Studio Laravel Project.png>)
 
@@ -120,6 +120,20 @@ VS Code Version: 1.132.0
    `composer create-project laravel/laravel hello-laravel`
 4. **Wait for the installation to complete** and allow Composer to download and configure all the required Laravel files and dependencies.
 5. **Check the project directory** and confirm that the `hello-laravel` folder has been successfully created.
+
+
+
+### Step 8: Running the Laravel Application
+
+1. **Navigate to the Laravel project directory** by opening Command Prompt or the terminal and entering:
+   `cd hello-laravel`
+2. **Start the Laravel development server** by running the following command:
+   `php artisan serve`
+3. **Open a web browser** and enter the local server address:
+   `http://127.0.0.1:8000`
+4. **Verify that the application loads successfully** and check that the customized Laravel homepage is displayed correctly.
+5. **Review the application** to ensure that all required information appears properly without errors.
+6. **Capture a screenshot** of the running Laravel application.
 
 ![alt text](<Screenshots/Run Laravel.png>)
 
@@ -139,7 +153,7 @@ VS Code Version: 1.132.0
 5. **Run the Laravel application** and open it in a web browser.
 6. **Refresh the browser page** to confirm that the updated information is displayed correctly.
 7. **Review the homepage** and ensure that all required details are visible and properly arranged.
-8. **Capture a screenshot** of the completed homepage as evidence of the customization.
+8. **Capture a screenshot** of the completed homepage.
 
 
 ![alt text](<Screenshots/Student HomePage.png>)
