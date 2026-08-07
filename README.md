@@ -1,5 +1,4 @@
-# Project Title:
-client-server-week02-laravel-setup
+# 1. Project Title: client-server-week02-laravel-setup
 
 <h1>2. Brief Overview of Laravel</h1>
 
