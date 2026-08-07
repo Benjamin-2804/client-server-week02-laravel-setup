@@ -189,7 +189,7 @@ database/ – Contains files used for managing database-related operations, incl
 1. Missing PHP Zip Extension
 While installing Laravel, I encountered an error indicating that the PHP Zip extension was missing or disabled in XAMPP.
 
-<h1>8. Solutions
+<h1>8. Solutions</h1>
 To resolve the issue, I opened the php.ini configuration file located inside the XAMPP installation directory and searched for the Zip extension. I then enabled the extension by removing the semicolon (;) before the appropriate extension=zip line.
 
 <h1>Reflection</h1>
