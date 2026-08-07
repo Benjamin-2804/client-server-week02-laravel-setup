@@ -27,6 +27,7 @@ The main purpose of this project is to set up a Laravel development environment 
 
 
 <h1>4. Development Environment<h1>
+
 ```text
 Operating System: Windows 11
 PHP Version: 8.5.0
